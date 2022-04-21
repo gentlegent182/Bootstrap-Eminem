@@ -1,0 +1,151 @@
+  <!-- Colabora -->
+  <section id="colabora" class="bg-secondary text-white py-5">
+    <div class="container">
+      <div class="text-center h2 mb-2 mt-5">
+        <i class="bi bi-music-note"></i>
+        <i class="bi bi-camera-video"></i>
+        <i class="bi bi-music-note"></i>
+      </div>
+      <h2 class="text-center py-2 display-4">
+
+        Video
+
+      </h2>
+
+      <p class="Lead pd-5 text-center pb-5">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque soluta nemo nam dolorem facere,
+        similique sequi labore obcaecati excepturi aliquid nostrum saepe qui facilis delectus temporibus pariatur
+        laboriosam rerum.
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card text-center text-dark bg-white">
+            <div class="card-body">
+              <h2 class="my-5">Debito</h2>
+              <div class="text-center h3">
+                <i class="bi bi-credit-card-2-back"></i>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item bg-white text-dark">Mas Facil</li>
+              <li class="list-group-item bg-white text-dark">Seguro</li>
+              <li class="list-group-item bg-white text-dark">Rapido</li>
+            </ul>
+            <div class="card-body">
+              <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                Link
+
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card text-center text-dark bg-white">
+            <div class="card-body">
+              <h2 class="my-5">Credito</h2>
+              <div class="text-center h3">
+                <i class="bi bi-credit-card-2-back"></i>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item bg-white text-dark">Rapido</li>
+              <li class="list-group-item bg-white text-dark">Seguro</li>
+              <li class="list-group-item bg-white text-dark">Programa tu colaboracion</li>
+            </ul>
+            <div class="card-body">
+              <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Link
+
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card text-center text-dark bg-white">
+            <div class="card-body">
+              <h2 class="my-5">Efectivo</h2>
+              <div class="text-center h3">
+                <i class="bi bi-wallet2"></i>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-white text-dark">Te esperamos</li>
+              <li class="list-group-item bg-white text-dark">Conocenos</li>
+              <li class="list-group-item bg-white text-dark">Directo en nuestra sucursal</li>
+            </ul>
+            <div class="card-body">
+              <button class="btn btn-outline-dark">
+                <i class="bi bi-geo-alt-fill" data-bs-toggle="modal" data-bs-target="#exampleModal3"></i>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>  
+
+<!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Modal Numero 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Modal 1
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 1 -->
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Modal Numero 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Modal 2
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 2 -->
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Modal Numero 3</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Modal 3
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 3 -->
