@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <title>Eminem Prueba</title>
+</head>
+
+<body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbarejemplo" data-bs-offset="0" tabindex="0">
+  <!-- Navbar -->
+  <nav id="navbarejemplo" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <i class="bi bi-boombox"></i>
+        <span class="align">Eminem</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-link active" aria-current="page">
+              Inicio
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a href="#banda" class="nav-link active">
+              Eminem
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a href="#disco" class="nav-link active">
+              Discos
+            </a>
+
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#video" class="nav-link active">
+              Video
+            </a>
+
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Slider/Carousel -->
+  <section id="inicio">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes_prueba/eminemcaru1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eminem "The Eminem Show"</h5>
+            <p>Mejor exito de este albúm es: "White America"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes_prueba/eminemcaru2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eminem "Music to be murdered by"</h5>
+            <p class="text-warning">Mejor exito de este albúm es: "The Premonition Intro"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes_prueba/eminemcaru3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning">Eminem "Encore"</h5>
+            <p class="text-warning">Mejor exito de este albúm es: "Evils Deeds"</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+  <!-- Slider/Carousel -->
+
+  <!-- Principal/Eminem-->
+  <main class="bg-dark text-white py-2" id="banda">
+    <div class="container">
+      <div class="text-center py-5">
+        <i class="bi bi-gem h4 text-white"></i>
+        <i class="bi bi-gem h4 text-white"></i>
+        <i class="bi bi-gem h4 text-white"></i>
+      </div>
+      <h2 class="text-center display-4 mb-5">Eminem</h2>
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4">
+          <h5>8 Mile (titulada: 8 Millas en Hispanoamérica).</h5>
+          <hr>
+          <p>
+            (Eminem), un joven deprimido que trabaja en una fábrica de metal pero que está luchando por enderezar los
+            diferentes aspectos de su vida y cuyo motor es su pasión por la música rap. Una noche acude a un famoso
+            lugar donde se desarrollan batallas para escoger al que invente las mejores rimas.
+          </p>
+          <button class="btn btn-outline-dark mb-5 mb-lg-0">
+            <a href="#video" class="nav-link active text-white border">
+              Video
+            </a>
+
+          </button>
+        </div>
+        <div class="col-12 col-lg-8 mb-5">
+          <img src="imagenes_prueba/emineminicio.jpeg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h1 class="mt-2 display-6">8 Mile (titulada: 8 Millas en Hispanoamérica) es una película dramática dirigida por
+        Curtis Hanson y protagonizada, entre otros, por Eminem, Kim Basinger y Brittany Murphy . El argumento está
+        basado en los primeros pasos en el mundo del rap del propio Eminem y como este quiere ganarse el respeto entre
+        los raperos negros. La película fue todo un éxito y, además de ser bien recibida por la crítica, ganó un Óscar a
+        la mejor canción original por Lose Yourself, siendo la primera película que gana una estatuilla por una canción
+        de hip-hop..</h1>
+
+
+    </div>
+
+  </main>
+  <!-- Principal/eminem -->
+
+  <!-- Disco -->
+  <section id="disco" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="text-center h4">
+        <i class="bi bi-person-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-person-fill"></i>
+      </div>
+      <h2 class="text-center mb-5 display-4"> Discos</h2>
+
+      <p class="Lead mb-5 text-center">Y por fin llega la review del discazo de vuestro segundo rapero preferido, pues
+        es obvio que yo soy el primero. Siento la espera, y vamos al lío.
+      </p>
+      <div class="row">
+        <div class="col-12-col-md-6 col-lg-4 col-xl-3 mb-5 mb-md-0">
+          <img src="imagenes_prueba/discoimg.jpeg" class="img-fluid rounded"></img>
+        </div>
+        <div class="col-12-col-md-6 col-lg-8 col-xl-9">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item bg-dark text-white">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed  bg-dark text-white border" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                  aria-controls="collapseOne">
+                  Reseña :
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Relapse (Recaída o SMT), es el título del sexto álbum de estudio del rapero Eminem, el cual salió al
+                  mercado el 15 de mayo de 2009. Durante un tiempo tuvo algunos posibles nombres el disco dados por los
+                  artistas más cercanos a este, incluyendo King Mathers y The Empact, pero Eminem dijo que el título
+                  sería Relapse en un evento por Shade 45 el 15 de octubre de 2008. En tan sólo su primera semana de
+                  vida, vendió más de 1 millón copias, alcanzando así las expectativas de lo que sería el triunfal y
+                  esperado regreso del rapero.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item  bg-dark text-white">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed  bg-dark text-white border" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  Otros artistas sobre "Relapse" :
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Quien dio la declaración sobre este disco fue 50 Cent para un diario local en que confirmó que Eminem
+                  se encontraba en el estudio de grabación preparando su nuevo álbum. En la portada del disco podemos
+                  ver la imagen de la cara de Eminem formada por cientos de pastillas y una etiqueta en forma de receta
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item  bg-dark text-white">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-dark text-white border" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  Otros Exitos :
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Marshall Bruce Mathers III (St. Joseph, Misuri, 17 de octubre de 1972), conocido artísticamente como
+                  Eminem (estilizado como EMINƎM) o como Slim Shady, es un cantante, productor discográfico y actor
+                  estadounidense. Su nombre artístico proviene de la unión de las iniciales de Marshall Mathers: M&M
+                  («Em and Em», estilizándose como Eminem), mientras que su segundo nombre artístico (llevado al español
+                  como Sombra Misteriosa o el Flaco Sombrío) se hizo conocer por primera vez en 1997 con su primer
+                  disco, titulado The Slim Shady EP.3​
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Disco -->
+
+
+  <!-- Video -->
+  <section id="video" class="py-5 bg-secondary text-white">
+    <div class="container">
+      <div class="text-center h4">
+        <i class="bi bi-camera-reels-fill"></i>
+        <i class="bi bi-vimeo"></i>
+        <i class="bi bi-camera-reels-fill"></i>
+      </div>
+      <h2 class="text-center mb-5 display-4">Video</h2>
+
+      <p class="Lead mb-5 text-center">Los dejamos con un video con los mejores exitos de Eminem
+      </p>
+
+      <div class="row">
+        <div class="col-12-col-md-6 col-lg-4 col-xl-3 mb-5 mb-md-0">
+
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JsHanVbi8ao" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+  </section>
+  <!-- Video -->
+  <!-- Footer -->
+  <footer class="container-fluid bg-dark text-center text-white py-5">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nemo quaerat hic consequatur veniam, eaque
+      repudiandae natus quo fugiat vitae atque, fuga repellendus odit quos a debitis amet voluptatum exercitationem.
+    </p>
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
